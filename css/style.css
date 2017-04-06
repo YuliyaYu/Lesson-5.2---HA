@@ -1,0 +1,133 @@
+.container1 {
+    max-width: 1132px;
+    height: 270px;
+    margin: auto;
+}
+
+.col4 {
+    margin: auto;
+    position: relative;
+    opacity: 0.5;
+    float: left;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.col4:hover {
+    opacity: 1;
+}
+
+.container2 {
+    max-width: 1132px;
+    margin: auto;
+    position: relative;
+}
+
+.col4_1 {
+    width: 24.55%;
+    margin: auto;
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.container3 {
+    max-width: 1132px;
+    margin: auto;
+    position: relative;
+    bottom: 245px;
+    right: 0;
+    left: 0;
+}
+
+.col4_2 {
+    width: 24.55%;
+    height: 241px;
+    margin-right: 5px;
+    background-color: white;
+    opacity: 0.5;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.col4_2:hover {
+    opacity: 0.00005;
+}
+
+.parent-cont {
+    max-width: 1132px;
+    height: 241px;
+    margin: auto;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+    text-shadow: 1px 1px yellow;
+}
+
+.lab {
+    max-width: 1332px;
+    height: 285px;
+    margin: auto;
+}
+
+.lab1 {
+    width: 21.2%;
+    height: 259px;
+    padding-left: 2px;
+    padding-top: 10px;
+    background-color: #009900;
+    margin-right: 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.topright {
+    position:absolute;
+    width: 100px;
+    border: 1px solid red;
+    background-color: red;
+    transform:  rotate(25deg);
+    top: -5px;
+    right: -25px;
+}
+
+.topleft {
+    position:absolute;
+    width: 100px;
+    border: 1px solid red;
+    background-color: red;
+    transform : rotate(-25deg);
+    top: -5px;
+    left: -25px;
+}
+.bottomright {
+    position:absolute;
+    width: 100px;
+    border: 1px solid red;
+    background-color: red;
+    transform:  rotate(-25deg);
+    bottom: -5px;
+    right: -25px;
+}
+
+.bottomleft {
+    position:absolute;
+    width: 100px;
+    border: 1px solid red;
+    background-color: red;
+    transform : rotate(25deg);
+    bottom: -5px;
+    left: -25px;
+}
